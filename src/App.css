@@ -7,13 +7,14 @@ body{
 }
 
 :root{
-  --black: #1F271B;
+  --black: #1d1b27;
   --pink: #EE4266;
-  --light-green: #F3FCF0;
-  --dark-purple: #540D6E;
-  --light-grey: #bdccb9;
-  --hover-grey: #aab6a6;
-  --lime-green: #A0D48E;
+  --light-green: #f0fcfc;
+  --dark-purple: #160d6e;
+  --light-grey: #b9cccc;
+  --hover-grey: #a6b6b3;
+  --lime-green: #87dae5;
+  --peach:#fcabe1;
 }
 
 .app{
@@ -28,6 +29,11 @@ body{
   justify-content: center; 
   background: var(--black);
   color:white;
+  align-items: center;
+}
+
+.title-bar>h4{
+  margin: 0px; 
 }
 
 .game-area{
@@ -76,6 +82,16 @@ body{
 .timer{
   flex: 30%;
   background: var(--lime-green);
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.timer-numbers{
+  margin: 0px;
+  color: var(--dark-purple);
 }
 
 .time-history{

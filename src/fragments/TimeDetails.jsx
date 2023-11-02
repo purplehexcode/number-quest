@@ -1,11 +1,11 @@
 import TimeHistory from "../components/TimeHistory"
 import Timer from "../components/Timer"
 
-const TimeDetails = () => {
+const TimeDetails = ({state}) => {
     return (
         <div className="time-details">
-            <Timer/>
-            <TimeHistory/>
+            <Timer state={state}/>
+            <TimeHistory state={state}/>
         </div>
     )
 }
