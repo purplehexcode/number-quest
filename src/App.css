@@ -47,15 +47,15 @@ body{
   background: var(--light-green);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center; 
-  gap: 0.5rem; 
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
 }
 
 .game-grid{
   display: grid;
-  grid-template-columns: repeat(15,30px);
-  grid-template-rows: repeat(15,30px);
+  grid-template-columns: repeat(15,35px);
+  grid-template-rows: repeat(15,35px);
   gap:1px;
 }
 
@@ -136,8 +136,8 @@ body{
     flex:5%;
   }
   .game-grid{
-    grid-template-columns: repeat(10,30px);
-    grid-template-rows: repeat(10,30px);
+    grid-template-columns: repeat(10,35px);
+    grid-template-rows: repeat(10,35px);
   }
   
 }
